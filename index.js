@@ -9,3 +9,25 @@ function handleClick(e) {
 
 /* Write your implementation of greet() */
 /* Write your implementation of displayMessage() */
+
+function greet (timeStr) {
+  const hour = parseInt(timeStr, 10);
+  if (hour < 12){
+ return"Good Morning"
+  }
+  else if 
+  (hour > 17){
+ return "Good Evening"
+  }
+   else
+  {
+  return "Good Afternoon"
+  }
+
+}
+
+
+function displayMessage(anil){
+  document.getElementById("greeting").innerText= anil
+}
+
